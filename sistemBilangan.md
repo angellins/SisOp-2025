@@ -46,21 +46,21 @@ LATIHAN
 
     Cara: Kalikan setiap digit biner dengan 2 pangkat posisinya, lalu jumlahkan
 
-    0 . 2^0 = 0
+    0 . 2<sup>0</sup> = 0
 
-    1 . 2^1 = 2
+    1 . 2<sup>1</sup> = 2
 
-    0 . 2^2 = 0
+    0 . 2<sup>2</sup> = 0
 
-    1 . 2^3 = 8
+    1 . 2<sup>3</sup> = 8
 
-    0 . 2^4 = 0
+    0 . 2<sup>4</sup> = 0
 
-    1 . 2^5 = 32
+    1 . 2<sup>5</sup> = 32
 
-    0 . 2^6 = 0
+    0 . 2<sup>6</sup> = 0
 
-    1 . 2^7 = 128
+    1 . 2<sup>7</sup> = 128
 
     0 + 2 + 0 + 8 + 0 + 32 + 0 + 128 = 170
 
@@ -187,49 +187,49 @@ LATIHAN
 
     a. 010100011,001111101₂
 
-    1 . 2^0 = 1
+    1 . 2<sup>0</sup> = 1
 
-    1 . 2^1 = 2
+    1 . 2<sup>1</sup> = 2
 
-    0 . 2^2 = 0
+    0 . 2<sup>2</sup> = 0
 
-    0 . 2^3 = 0
+    0 . 2<sup>3</sup> = 0
 
-    0 . 2^4 = 0
+    0 . 2<sup>4</sup> = 0
 
-    1 . 2^5 = 32
+    1 . 2<sup>5</sup> = 32
 
-    0 . 2^6 = 0
+    0 . 2<sup>6</sup> = 0
 
-    1 . 2^7 = 128
+    1 . 2<sup>7</sup> = 128
 
-    0 . 2^8 = 0
+    0 . 2<sup>8</sup> = 0
 
     1 + 2 + 0 + 0 + 0 + 32 + 0 + 128 + 0 = 163
 
-    0 . 2^-1 = 0
+    0 . 2<sup>-1</sup> = 0
 
-    0 . 2^-2 = 0
+    0 . 2<sup>-2</sup> = 0
 
-    1 . 2^-3 = 0,125
-
-    1 . 2^-4 = 0,0625
-
-    1 . 2^-5 = 0,03125
-
-    1 . 2^-6 = 0,015625
-
-    1 . 2^-7 = 0,0078125
-
-    0 . 2^-8 = 0
-
-    1 . 2^-9 = 0,001953125
+    1 . 2<sup>-3</sup> = 0,125
+    
+    1 . 2<sup>-4</sup> = 0,0625
+    
+    1 . 2<sup>-5</sup> = 0,03125
+    
+    1 . 2<sup>-6</sup> = 0,015625
+    
+    1 . 2<sup>-7</sup> = 0,0078125
+    
+    0 . 2<sup>-8</sup> = 0
+    
+    1 . 2<sup>-9</sup> = 0,001953125
 
     Jumlah: 0.24609375
 
     Jawaban: 163,245
 
-12. Rubahlah bilangan biner di bawah ini ke dalam bentuk BCD
+13. Rubahlah bilangan biner di bawah ini ke dalam bentuk BCD
 
     a. 10100110000111₂
 
@@ -239,7 +239,7 @@ LATIHAN
 
     Jawaban: 2987
 
-13. Rubahlah bentuk BCD di bawah ini ke dalam bilangan biner
+14. Rubahlah bentuk BCD di bawah ini ke dalam bilangan biner
 
     a. 1987
 
@@ -249,7 +249,7 @@ LATIHAN
 
     Jawaban: 1 1001 1000 0111
 
-14. Rubahlah bilangan biner di bawah ini ke dalam BCO
+15. Rubahlah bilangan biner di bawah ini ke dalam BCO
 
     a. 11111101001₂
 
@@ -259,7 +259,7 @@ LATIHAN
 
     Jawaban: 3751
 
-15. Rubahlah bilangan biner di bawah ini ke dalam BCH
+16. Rubahlah bilangan biner di bawah ini ke dalam BCH
 
     a. 1101111100101110₂
 
@@ -269,7 +269,7 @@ LATIHAN
 
     Jawaban: DF2E
     
-16. Rubahlah Bentuk BCH di bawah ini ke dalam bilangan heksadesimal
+17. Rubahlah Bentuk BCH di bawah ini ke dalam bilangan heksadesimal
 
     a. F0DE
 
@@ -279,7 +279,7 @@ LATIHAN
 
     Jawaban: 1111 0000 1101 1110
 
-17. Nyatakan positip atau negatip bilangan biner di bawah ini
+18. Nyatakan positip atau negatip bilangan biner di bawah ini
 
     a. 01111111
 
@@ -290,7 +290,7 @@ LATIHAN
 
     Jawaban: Positip
 
-18. Nyatakan bilangan biner negatip di bawah ini ke dalam bilangan desimal
+19. Nyatakan bilangan biner negatip di bawah ini ke dalam bilangan desimal
 
     a. 10001000
 
@@ -301,7 +301,7 @@ LATIHAN
 
     Jawaban: -120
 
-19. Nyatakan ASCII Code di bawah ini dalam bentuk karakter
+20. Nyatakan ASCII Code di bawah ini dalam bentuk karakter
 
     a. 41₁₆
 
@@ -311,7 +311,7 @@ LATIHAN
 
     Karakter yang sesuai adalah A
 
-20. Nyatakan Karakter di bawah ini dalam ASCII Code
+21. Nyatakan Karakter di bawah ini dalam ASCII Code
 
     a. a
 
@@ -321,7 +321,7 @@ LATIHAN
 
     ASCII Code: 61₁₆
 
-21. Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai berikut: PRINT X
+22. Dengan Keyboard standard ASCII, pada layar monitor nampak tulisan sebagai berikut: PRINT X
 
     Nyatakan keluaran pada keyboard tersebut.
 
