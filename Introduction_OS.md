@@ -1,3 +1,7 @@
+Nama : Angelina Safara
+NRP : 3124521004
+Kelas : 1 Teknik Informatika A
+
 Practice exercise
 1.	What are the three main purposes of an operating system?
 Answer:
