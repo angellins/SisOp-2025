@@ -9,7 +9,7 @@ Berikut adalah tugas minggu ke - 3 membuat flowchart untuk proses dari komputer 
 ## **Gambar Flowchart**
 ![Flowchart Booting](https://github.com/angellins/SisOp-2025/blob/main/flowchart_boot.png)
 
-# ** Penjelasan Langkah Flowchart Proses Booting Komputer**
+#  Penjelasan Flowchart Proses Booting Komputer
 
 ## **1. Mulai: Tekan Tombol Power**
 Pengguna menyalakan komputer dengan menekan tombol power.
