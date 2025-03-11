@@ -7,7 +7,7 @@ Mata kuliah : Sistem Operasi
 Berikut adalah tugas minggu ke - 3 membuat flowchart untuk proses dari komputer dinyalakan hingga komputer bisa digunakan:  
 
 ## **Gambar Flowchart**
-![Flowchart Booting](images/flowchart_booting.png)
+![Flowchart Booting](images/flowchart_boot.png)
 
 # ** Penjelasan Langkah Flowchart Proses Booting Komputer**
 
