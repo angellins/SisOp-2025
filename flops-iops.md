@@ -42,3 +42,20 @@ uninstall: all
 clean:
 	rm $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4)
 ```
+
+```
+$ ./iops32 $(nproc)
+```
+![iops32](https://github.com/angellins/SisOp-2025/blob/main/screenshot_flops-iops/iops32.png)  
+```
+$ ./iops64 $(nproc)
+```
+![iops64](https://github.com/angellins/SisOp-2025/blob/main/screenshot_flops-iops/iops64.png)  
+```
+$ ./flops32 $(nproc)
+```
+![flops32](https://github.com/angellins/SisOp-2025/blob/main/screenshot_flops-iops/flops32.png)  
+```
+$ ./flops64 $(nproc)
+```
+![flops64](https://github.com/angellins/SisOp-2025/blob/main/screenshot_flops-iops/flops64.png)  
