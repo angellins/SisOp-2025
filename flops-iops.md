@@ -1,10 +1,12 @@
 Nama : Angelina Safara  
-NRP : 3124521004
+NRP : 3124521004  
 Kelas : 1 Teknik Informatika A  
 
-##Tugas mengukur CPU menggunakan Flops-Iops##  
-MakeFile  
-'''bash  copy
+## Tugas mengukur CPU menggunakan Flops-Iops ##  
+
+### kode MakeFile ###  
+---
+```
 CC = gcc
 CFLAGS = -lpthread -Wno-overflow -pthread
 
@@ -39,3 +41,4 @@ uninstall: all
 
 clean:
 	rm $(TARGET1) $(TARGET2) $(TARGET3) $(TARGET4)
+```
