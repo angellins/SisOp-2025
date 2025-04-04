@@ -11,3 +11,6 @@ $ ./fork01
 ```
 ![fork1](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork1.png)  
 ```
+$ ./fork02
+```
+![fork2](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork2.png)  
