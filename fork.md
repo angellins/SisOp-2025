@@ -14,3 +14,15 @@ $ ./fork01
 $ ./fork02
 ```
 ![fork2](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork2.png)  
+```
+$ ./fork03
+```
+![fork3](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork3.png)  
+```
+$ ./fork04
+```
+![fork4](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork4.png)  
+```
+$ ./fork05
+```
+![fork5](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork5.png)  
