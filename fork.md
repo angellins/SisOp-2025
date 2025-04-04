@@ -26,3 +26,7 @@ $ ./fork04
 $ ./fork05
 ```
 ![fork5](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork5.png)  
+```
+$ ./fork06
+```
+![fork6](https://github.com/angellins/SisOp-2025/blob/main/screenshots_fork/fork6.png)  
