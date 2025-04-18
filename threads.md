@@ -1,29 +1,31 @@
-## Threads and Concuurency ##  
+## Threads and Concurrency ##  
 Nama : Angelina Safara  
 NRP : 3124521004  
 Kelas : 1 Teknik Informatika A  
 
-Tugas pertemuan ke-7
+Tugas pertemuan ke-7  
 
 1. Single Thread adalah model eksekusi tugas di mana hanya ada satu alur (thread) yang menjalankan serangkaian instruksi secara berurutan. 
 Dalam sistem single thread, setiap tugas harus diselesaikan sebelum beralih ke tugas berikutnya, sehingga tidak ada paralelisme. 
 Konsep ini sederhana dan mudah diprediksi, tetapi kurang efisien untuk tugas-tugas yang membutuhkan waktu lama atau menunggu sumber daya eksternal (seperti I/O). 
-Contohnya adalah program yang membaca file besar tanpa bisa melakukan operasi lain selama proses pembacaan berlangsung.
-
+Contohnya adalah program yang membaca file besar tanpa bisa melakukan operasi lain selama proses pembacaan berlangsung.  
 Multithread memungkinkan beberapa alur (thread) berjalan secara bersamaan dalam satu proses, sehingga tugas-tugas dapat dieksekusi secara paralel atau tumpang-tindih (overlapping). 
 Ini meningkatkan efisiensi dan responsivitas, terutama pada sistem multi-core. Misalnya, sebuah aplikasi dapat menggunakan satu thread untuk antarmuka pengguna (UI) 
 dan thread lain untuk komputasi berat tanpa membuat UI freeze. Namun, multithread memerlukan manajemen yang hati-hati untuk menghindari race condition dan deadlock.  
 
-2. Programming Exercise
-a. Penerapan threads pada contoh SumTask.java
+2. Programming Exercise  
+a. Penerapan threads pada contoh SumTask.java  
+![a](https://github.com/angellins/SisOp-2025/blob/main/threads/a.png)  
 Program SumTask.java menggunakan konsep multithreading dengan membagi proses penjumlahan elemen array ke dalam beberapa thread yang berjalan secara paralel. 
 Output dari program ini menunjukkan hasil penjumlahan seluruh elemen array secara akurat dan cepat. Java mempermudah implementasi thread karena sudah menyediakan class bawaan 
-seperti Thread dan Runnable,
-b. penerapan Thread di Linux (thrd-posix.c)
+seperti Thread dan Runnable.  
+b. penerapan Thread di Linux (thrd-posix.c)  
+![b](https://github.com/angellins/SisOp-2025/blob/main/threads/b.png)  
 Program thrd-posix.c menggunakan pustaka POSIX Threads (Pthreads) di sistem operasi Linux untuk membagi proses penjumlahan ke beberapa thread. 
 Saat dijalankan dengan parameter jumlah elemen array, output yang dihasilkan berupa total penjumlahan yang dilakukan oleh thread-thread tersebut secara paralel. 
-Implementasi ini memberikan kontrol yang tinggi terhadap proses pembuatan dan penggabungan thread (pthread_create dan pthread_join)
-c. penerapan thread di Microsoft Windows (thrd-win32.c).
+Implementasi ini memberikan kontrol yang tinggi terhadap proses pembuatan dan penggabungan thread (pthread_create dan pthread_join).  
+c. penerapan thread di Microsoft Windows (thrd-win32.c).  
+![c](https://github.com/angellins/SisOp-2025/blob/main/threads/c.png)  
 Program thrd-win32.c menerapkan multithreading dengan menggunakan API Windows (CreateThread) untuk menjalankan beberapa thread yang menghitung sebagian dari total array.
 Meskipun prinsip kerjanya mirip dengan versi Linux, penggunaan WinAPI memerlukan pemahaman lebih terhadap struktur dan fungsi bawaan Windows. Dengan kontrol tingkat rendah 
 terhadap thread dan memori, program ini cocok untuk pengembangan aplikasi desktop Windows yang menuntut efisiensi dan optimalisasi kerja CPU.
