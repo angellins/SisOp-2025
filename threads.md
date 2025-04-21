@@ -34,7 +34,11 @@ Program thrd-win32.c menerapkan multithreading dengan menggunakan API Windows (C
 Meskipun prinsip kerjanya mirip dengan versi Linux, penggunaan WinAPI memerlukan pemahaman lebih terhadap struktur dan fungsi bawaan Windows. Dengan kontrol tingkat rendah 
 terhadap thread dan memori, program ini cocok untuk pengembangan aplikasi desktop Windows yang menuntut efisiensi dan optimalisasi kerja CPU.  
 
-## Practice Exercises  
+## 3. PPT Evolusi Teknologi Prosesor Imtel Ultra  
+[Klik di sini untuk membuka PPT]  
+(https://github.com/angellins/SisOp-2025/blob/main/threads/Evolusi%20prosesor%20intel.pdf?raw=true)
+
+## 4. Practice Exercises  
 
 ### 4.1
 **Apa perbedaan antara proses dan program?**
