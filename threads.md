@@ -17,13 +17,14 @@ dan thread lain untuk komputasi berat tanpa membuat UI freeze. Namun, multithrea
 a. Penerapan threads pada contoh SumTask.java  
 ![a](https://github.com/angellins/SisOp-2025/blob/main/threads/a.png)  
 Program SumTask.java menggunakan konsep multithreading dengan membagi proses penjumlahan elemen array ke dalam beberapa thread yang berjalan secara paralel. 
-Output dari program ini menunjukkan hasil penjumlahan seluruh elemen array secara akurat dan cepat. Java mempermudah implementasi thread karena sudah menyediakan class bawaan 
-seperti Thread dan Runnable.  
+Output dari program ini menunjukkan hasil penjumlahan seluruh elemen array secara akurat dan cepat. Java mempermudah implementasi thread karena sudah menyediakan class bawaan seperti Thread dan Runnable.
+
 b. penerapan Thread di Linux (thrd-posix.c)  
 ![b](https://github.com/angellins/SisOp-2025/blob/main/threads/b.png)  
 Program thrd-posix.c menggunakan pustaka POSIX Threads (Pthreads) di sistem operasi Linux untuk membagi proses penjumlahan ke beberapa thread. 
 Saat dijalankan dengan parameter jumlah elemen array, output yang dihasilkan berupa total penjumlahan yang dilakukan oleh thread-thread tersebut secara paralel. 
 Implementasi ini memberikan kontrol yang tinggi terhadap proses pembuatan dan penggabungan thread (pthread_create dan pthread_join).  
+
 c. penerapan thread di Microsoft Windows (thrd-win32.c).  
 ![c](https://github.com/angellins/SisOp-2025/blob/main/threads/c.png)  
 Program thrd-win32.c menerapkan multithreading dengan menggunakan API Windows (CreateThread) untuk menjalankan beberapa thread yang menghitung sebagian dari total array.
