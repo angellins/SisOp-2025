@@ -16,7 +16,7 @@ Program ini mengimplementasikan algoritma Shortest Job First (SJF) non-preemptiv
 analisa:  
 Pengguna memasukkan jumlah proses n
 Program mengisi array p dengan data burst time masing-masing proses
-2.	Sorting Sesuai Burst Time (SJF)  
+ 2. Sorting Sesuai Burst Time (SJF)  
 ```
 for(int i=0;i<n-1;i++)
     for(int j=0;j<n-i-1;j++)
@@ -26,7 +26,7 @@ for(int i=0;i<n-1;i++)
 analisa:
 Menggunakan Bubble Sort
 Mengurutkan proses berdasarkan burst time terkecil ke terbesar (SJF)  
-3.	Perhitungan CT, TAT, WT, RT
+ 3. Perhitungan CT, TAT, WT, RT
 ```
 for(int i=0;i<n;i++)
 {
@@ -43,8 +43,12 @@ RT = WT (karena non-preemptive, proses langsung dimulai setelah menunggu)
 output:  
 ![SA](https://github.com/angellins/SisOp-2025/blob/main/scheduling-algorithm/kode1.png)  
 Gantt chart:  
-| P3 | P1 | P2  | P4  |
-0    2    5    10    16
+```
++----+------+-------+----------+  
+| P3 |  P1  |  P2   |    P4    |  
++----+------+-------+----------+  
+0    2      5      10         16
+```
 #### 2. SJF Scheduling Algorithm
 ```
 #include<stdio.h>
@@ -119,6 +123,12 @@ int main()
 output:  
 ![SA](https://github.com/angellins/SisOp-2025/blob/main/scheduling-algorithm/kode2.png)  
 Gantt chart:  
+```
+ +-------+------+--------+
+ |  P3   |  P1  |   P2   |
+ +-------+------+--------+
+ 1       6      10       16
+```
 analisa:  
 Output program menunjukkan hasil penjadwalan dengan algoritma SJF Non-Preemptive, di mana proses dengan burst time terkecil dieksekusi lebih dulu setelah arrival time-nya terpenuhi. Proses P3 dijalankan pertama karena tiba paling awal dan memiliki burst time sedang. Proses P1 menyusul karena burst-nya lebih kecil dari P2. Hasilnya, rata-rata Turnaround Time adalah 8.67 dan Waiting Time 3.67. Nilai ini menunjukkan efisiensi cukup baik dalam eksekusi proses berdasarkan durasi terpendek.
 #### 3. SRTF Scheduling Algorithm  
@@ -186,5 +196,11 @@ int main()
 output:  
 ![SA](https://github.com/angellins/SisOp-2025/blob/main/scheduling-algorithm/kode3.png)  
 Gantt chart:  
+```
++-------+--------+----------+--------+
+|  P3   |   P4   |    P2    |   P1   |
++-------+--------+----------+--------+
+0       6        8          10       16
+```
 analisa:  
 Program menerapkan algoritma penjadwalan Shortest Remaining Time First (SRTF), yaitu versi preemptive dari SJF. Proses dengan waktu eksekusi tersisa paling pendek akan selalu dijalankan terlebih dahulu. Pada kasus ini, P3 yang tiba paling awal dieksekusi dulu, namun dieksekusi bergantian karena adanya proses baru dengan burst time lebih pendek. Proses P4 yang hanya butuh 1 detik langsung diselesaikan saat tiba di waktu 7. Hasil akhir menunjukkan rata-rata Turnaround Time 5.75 dan Waiting Time 2.25, menandakan efisiensi cukup baik karena proses lebih pendek diprioritaskan.
